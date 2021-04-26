@@ -64,6 +64,6 @@ class _ThirdPageState extends State<ThirdPage> {
   @override
   Widget build(BuildContext context) {
     return Container(
-    child:Text('This is done at Github official website));
+    child:Text('This is done at Github official website'));
   }
 }
