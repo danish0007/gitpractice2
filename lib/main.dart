@@ -38,3 +38,17 @@ class _FirstPageState extends State<FirstPage> {
     return Container();
   }
 }
+
+
+
+class SecondPage extends StatefulWidget {
+  @override
+  _SecondPageState createState() => _SecondPageState();
+}
+
+class _SecondPageState extends State<SecondPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
