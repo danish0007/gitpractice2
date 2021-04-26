@@ -39,6 +39,8 @@ class _FirstPageState extends State<FirstPage> {
   }
 }
 
+
+
 class SecondPage extends StatefulWidget {
   @override
   _SecondPageState createState() => _SecondPageState();
@@ -47,8 +49,20 @@ class SecondPage extends StatefulWidget {
 class _SecondPageState extends State<SecondPage> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text('This is done in android studio'),
-    );
+    return Container();
+  }
+}
+
+
+
+class ThirdPage extends StatefulWidget {
+  @override
+  _ThirdPageState createState() => _ThirdPageState();
+}
+
+class _ThirdPageState extends State<ThirdPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
   }
 }
