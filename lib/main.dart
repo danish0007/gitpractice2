@@ -50,3 +50,17 @@ class _SecondPageState extends State<SecondPage> {
     return Container();
   }
 }
+
+
+
+class ThirdPage extends StatefulWidget {
+  @override
+  _ThirdPageState createState() => _ThirdPageState();
+}
+
+class _ThirdPageState extends State<ThirdPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
