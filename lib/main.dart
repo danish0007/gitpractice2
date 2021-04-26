@@ -39,8 +39,6 @@ class _FirstPageState extends State<FirstPage> {
   }
 }
 
-
-
 class SecondPage extends StatefulWidget {
   @override
   _SecondPageState createState() => _SecondPageState();
